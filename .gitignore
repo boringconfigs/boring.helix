@@ -1,1 +1,4 @@
 .git
+
+# Ignore languages.toml for machine specific configs
+.config/helix/languages.toml
