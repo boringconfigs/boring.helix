@@ -1,0 +1,8 @@
+theme = "catppuccin_macchiato"
+
+[editor.file-picker]
+hidden = false
+
+[editor]
+line-number = "relative"
+auto-pairs = false
