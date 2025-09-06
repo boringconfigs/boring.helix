@@ -6,3 +6,9 @@ hidden = false
 [editor]
 line-number = "relative"
 auto-pairs = false
+
+[keys.normal]
+"A-(" = "rotate_selection_contents_backward"
+"A-)" = "rotate_selection_contents_forward"
+C-J = "join_selections_space"
+C-K = "remove_selections"

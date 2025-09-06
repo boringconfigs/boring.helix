@@ -8,8 +8,12 @@ language-servers = ["kotlin"]
 formatter = { command = "ktfmt", args = ["--stdin-name=%{buffer_name}", "-"] }
 
 [[language]]
+name = "lua"
+formatter = { command = "stylua", args = ["--stdin-filepath", "%{buffer_name}", "-"] }
+
+[[language]]
 name = "markdown"
-formatter = { command = "prettier", args = ["--prose-wrap=always" "--stdin-filepath=%{buffer_name}"] }
+formatter = { command = "prettier", args = ["--prose-wrap=always", "--stdin-filepath=%{buffer_name}"] }
 
 [[language]]
 name = "typescript"
