@@ -8,7 +8,13 @@ line-number = "relative"
 auto-pairs = false
 
 [keys.normal]
-"A-(" = "rotate_selection_contents_backward"
-"A-)" = "rotate_selection_contents_forward"
-C-J = "join_selections_space"
-C-K = "remove_selections"
+
+# Vim friendly remappings
+V = "extend_line_below"
+x = "delete_selection"
+
+# Remap Alt shortcuts that overlap with Aerospace to use CTRL instead
+"C-[" = "rotate_selection_contents_backward"
+"C-]" = "rotate_selection_contents_forward"
+C-j = "join_selections_space"
+C-k = "remove_selections"
