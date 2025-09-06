@@ -9,11 +9,11 @@ auto-pairs = false
 
 [keys.normal]
 
-# Vim friendly remappings
+# Vim friendly remapping
 V = "extend_line_below"
-A-V = "extend_to_line_bounds"
+C-V = "extend_line_above"
 x = "delete_selection"
-X = "delete_char_backwards"
+X = "delete_char_backward"
 
 # Remap Alt shortcuts that overlap with Aerospace to use CTRL instead
 "C-[" = "rotate_selection_contents_backward"
