@@ -5,42 +5,34 @@ args = ["--stdio"]
 [[language]]
 name = "kotlin"
 language-servers = ["kotlin"]
-auto-format = true
 formatter = { command = "ktfmt", args = ["--stdin-name=%{buffer_name}", "-"] }
 
 [[language]]
 name = "markdown"
-auto-format = true
-formatter = { command = "prettier", args = ["--stdin-filepath=%{buffer_name}"] }
+formatter = { command = "prettier", args = ["--prose-wrap=true" "--stdin-filepath=%{buffer_name}"] }
 
 [[language]]
 name = "typescript"
-auto-format = true
 formatter = { command = "prettier", args = ["--stdin-filepath=%{buffer_name}"] }
 
 # Tailwind css
 [language-server.tailwindcss-ls]
 command = "tailwindcss-language-server"
-auto-format = true
 args = ["--stdio"]
 
 [[language]]
 name = "html"
-auto-format = true
 language-servers = [ "vscode-html-language-server", "tailwindcss-ls" ]
 
 [[language]]
 name = "css"
-auto-format = true
 language-servers = [ "vscode-css-language-server", "tailwindcss-ls" ]
 
 [[language]]
 name = "jsx"
-auto-format = true
 language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
 
 [[language]]
 name = "tsx"
-auto-format = true
 language-servers = [ "typescript-language-server", "tailwindcss-ls" ]
 
