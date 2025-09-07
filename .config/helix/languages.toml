@@ -1,0 +1,8 @@
+# Kotlin LSP is not yet supported out-of-the-box so configure it here
+[language-server.kotlin]
+command = "kotlin-lsp"
+args = ["--stdio"]
+
+[[language]]
+name = "kotlin"
+language-servers = ["kotlin"]
