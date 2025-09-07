@@ -10,8 +10,7 @@ auto-pairs = false
 [keys.normal]
 
 # Vim friendly remapping
-V = "extend_line_below"
-C-V = "extend_line_above"
+V = "extend_line"
 x = "delete_selection"
 X = "delete_char_backward"
 
