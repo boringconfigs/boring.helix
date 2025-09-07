@@ -7,4 +7,5 @@ brew "yaml-language-server"
 brew "marksman"
 brew "bash-language-server"
 brew "taplo"
+brew "dockerfile-language-server"
 
