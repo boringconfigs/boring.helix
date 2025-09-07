@@ -8,14 +8,8 @@ line-number = "relative"
 auto-pairs = false
 
 [keys.normal]
-
-# Vim friendly remapping
+# Minimal remapping to make vim users to feel home
 V = "extend_line"
 x = "delete_selection"
 X = "delete_char_backward"
 
-# Remap Alt shortcuts that overlap with Aerospace to use CTRL instead
-"C-[" = "rotate_selection_contents_backward"
-"C-]" = "rotate_selection_contents_forward"
-C-j = "join_selections_space"
-C-k = "remove_selections"
