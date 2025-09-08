@@ -7,6 +7,9 @@ hidden = false
 line-number = "relative"
 auto-pairs = false
 
+# Fix clipboard when using through tmux
+clipboard-provider = "pasteboard"
+
 [keys.normal]
 # Minimal remapping to make vim users to feel home
 V = "extend_line"
