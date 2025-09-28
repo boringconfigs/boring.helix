@@ -19,3 +19,6 @@ Helix editor configuration.
 ### `languages.toml`
 
 *   **Kotlin**: Configures the Kotlin language server.
+## Installation
+
+You can find installation instructions from [here](https://github.com/boringconfigs/#installation).
