@@ -6,6 +6,7 @@ hidden = false
 [editor]
 line-number = "relative"
 auto-pairs = false
+trim-trailing-whitespace = true
 
 # Fix clipboard when using through tmux
 clipboard-provider = "pasteboard"
