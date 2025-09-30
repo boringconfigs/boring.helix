@@ -1,8 +1,5 @@
 theme = "catppuccin_macchiato"
 
-[editor.file-picker]
-hidden = false
-
 [editor]
 line-number = "relative"
 auto-pairs = false
@@ -10,6 +7,9 @@ trim-trailing-whitespace = true
 
 # Fix clipboard when using through tmux
 clipboard-provider = "pasteboard"
+
+[editor.file-picker]
+hidden = false
 
 [keys.normal]
 # Minimal remapping to make vim users to feel home
